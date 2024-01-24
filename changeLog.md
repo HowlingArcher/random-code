@@ -5,3 +5,6 @@
 
 ## 1.0.01
 - Changed the location of the changeLog.md file in the readme.md file so that now they actually link up.
+
+## 1.1.0
+- Added a QR-code generator from URL to the repository.

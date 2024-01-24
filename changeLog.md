@@ -2,3 +2,6 @@
 
 ## 1.0.0
 - Uploaded the current files. This is the Initial Commit
+
+## 1.0.01
+- Changed the location of the changeLog.md file in the readme.md file so that now they actually link up.

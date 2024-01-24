@@ -26,4 +26,4 @@ This is a discord bot that I created because sometimes I'm too lazy to get out o
 This is a simple script that shuts down your PC after a certain amount of time. This code only has the function `!shutdownIn` as discribed in the [DiscordBot](#discordbot). And this code works in a commandline, like cmd, the terminal of visual studio code, etc.
 
 ## Changelog
-You can find the changelog [here](https://github.com/howlingarcher/random-code/changeLog.md)
+You can find the changelog [here](https://github.com/HowlingArcher/random-code/blob/main/changeLog.md)

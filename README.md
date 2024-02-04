@@ -30,5 +30,19 @@ This is a simple script that shuts down your PC after a certain amount of time. 
 ### QR-code Generator
 This is a simple script that runs in the cmd, or any commandline interface. It asks you for a link and then creates a QR code for that URL as an image and saves it.
 
+### trabsactuibs bot
+This discord bot allows you to keep track of your spending and earnings. This discord bot is supposed to only listen to 1 user. So inviting it into your own private server is highly recommended. This discord bot is still in development and is not yet finished. If you are interested in getting started with this bot, please contact us at [discord](https://discord.gg/7xxVG4u8nW). This will help us to understand what you want from this bot and how we can improve it. The following commands are available: 
+- `!help` - Shows the help menu
+- `!spend` - Manually enter your spending with amount, date, and reason
+- `!earn` - Manually enter your earnings with amount, date, and reason
+- `!lookup` - Look up withdrawals and earnings in a specific month and year
+
+examples: 
+- `!help`
+- `!spend 100 1/2024 new headphones`
+- `!earn 100 1/2024 freelance work`
+- `!lookup 1/2024`
+
+
 ## Changelog
 You can find the changelog [here](https://github.com/HowlingArcher/random-code/blob/main/changeLog.md)

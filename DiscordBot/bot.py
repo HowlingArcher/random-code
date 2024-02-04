@@ -18,6 +18,7 @@ bot = commands.Bot(command_prefix='!', intents=intents)
 # Event: Bot is ready
 @bot.event
 async def on_ready():
+    await bot.change_presence(status=discord.Status.offline)
     print(f'Logged in as {bot.user.name} ({bot.user.id})')
 
 # Command: !shutdown
@@ -150,12 +151,12 @@ async def send_screenshot(ctx):
 
 async def pc_shutdown():
     # shut down the pc running this code:
-    os.system("shutdown /s")
+    os.system("shutdown /s /t 1")
     sys.exit()
 
 async def pc_restart():
     # restart the pc running this code:
-    os.system("shutdown /r")
+    os.system("shutdown /r /t 1")
 
 async def pc_update_shutdown():
     # shuts down pc after an update is installed:
@@ -163,4 +164,4 @@ async def pc_update_shutdown():
     sys.exit()
 
 # Run the bot with your token
-bot.run('YOUR_TOKEN_HERE')
+bot.run('YOUR_DISCORD_TOKEN')
